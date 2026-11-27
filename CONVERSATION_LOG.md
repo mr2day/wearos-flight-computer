@@ -273,3 +273,9 @@ When continuing the project, add a dated entry for durable decisions, changed as
 - App launcher label is `Swirlock Flight Computer`; launch from the watch's app grid. The APK requires watch hardware and API 33+, and the current project targets API 36 with standard Wear OS/Android APIs.
 - Samsung's official Ultra2 pages identify it as a Wear OS 7 watch with Play Store app support. The app should be sideloadable there through Wireless debugging/ADB, but it has not yet been installed or sensor-validated on that device. Current watch-specific magnetic/IMU behavior may differ.
 - Source checked: Samsung official Ultra2 page https://www.samsung.com/us/watches/galaxy-watch-ultra2/ and Samsung Business Ultra2 product page https://www.samsung.com/uk/business/watches/galaxy-watch/galaxy-watch-ultra2-titanium-silver-lte-sm-l715fzsaeub/.
+
+## 2026-11-27 - Initial repository commit and push
+
+- User requested committing and pushing everything in the repository.
+- Staged all project files (23 files; generated build outputs and local.properties remain excluded by `.gitignore`) and created root commit `322968e` (`Implement initial inertial navigation and fuel estimate`).
+- Pushed branch `main` to `origin` (`https://github.com/mr2day/wearos-flight-computer.git`) successfully. This log entry is being committed and pushed as a follow-up.
