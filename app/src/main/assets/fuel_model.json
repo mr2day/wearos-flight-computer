@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "calibrationStatus": "provisional",
+  "initialFuelL": 5.0,
+  "takeoffBurnL": 0.20,
+  "takeoffDetection": {
+    "minimumHorizontalSpeedKmh": 15.0,
+    "minimumClimbSpeedMps": 1.0,
+    "confirmationSeconds": 3.0
+  },
+  "phaseDetection": {
+    "climbAtOrAboveMps": 0.5,
+    "descentAtOrBelowMps": -0.5,
+    "filterTimeConstantSeconds": 3.0,
+    "confirmationSeconds": 2.0
+  },
+  "speedBands": [
+    { "maximumHorizontalSpeedKmh": 20.0, "climbLph": 5.0, "levelLph": 3.0, "descentLph": 0.8 },
+    { "maximumHorizontalSpeedKmh": 40.0, "climbLph": 5.5, "levelLph": 3.5, "descentLph": 0.9 },
+    { "maximumHorizontalSpeedKmh": 60.0, "climbLph": 6.0, "levelLph": 4.0, "descentLph": 1.0 },
+    { "maximumHorizontalSpeedKmh": 160.0, "climbLph": 6.5, "levelLph": 4.5, "descentLph": 1.2 }
+  ],
+  "unknownPhaseLph": 5.5,
+  "fuelWarnings": {
+    "orangeAtL": 2.5,
+    "redAtL": 1.0,
+    "redEnduranceMinutes": 15.0
+  }
+}
